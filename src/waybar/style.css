@@ -1,0 +1,69 @@
+/*==========================================================================*/
+* {
+  font-family: "SF Pro";
+  font-size: 14px;
+  font-weight: 600;
+  color: #c6d0f5;
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  border-style: none;
+}
+
+window#waybar {
+  background-color: #232634;
+  border-radius: 8px;
+}
+/*==========================================================================*/
+
+/*==========================================================================*/
+#workspaces {
+  background-color: #303446;
+  border-radius: 6px;
+  padding: 2px 2px 2px 2px;
+  margin: 4px 0px 4px 4px;
+}
+
+#workspaces label {
+  padding: 0px 4px 0px 4px;
+  margin: 0px 0px 0px 0px;
+}
+
+#taskbar {
+  background-color: #303446;
+  border-radius: 6px;
+  padding: 0px 0px 0px 0px;
+  margin: 4px 0px 4px 4px;
+}
+
+#taskbar button {
+  padding: 0px 4px 0px 4px;
+  margin: 2px 2px 2px 2px;
+}
+/*==========================================================================*/
+
+/*==========================================================================*/
+#window {
+  background-color: #303446;
+  border-radius: 6px;
+  padding: 2px 8px 2px 8px;
+  margin: 4px 4px 4px 4px;
+}
+/*==========================================================================*/
+
+/*==========================================================================*/
+#clock.time,
+#clock.date,
+#cpu,
+#memory {
+  background-color: #303446;
+  border-radius: 6px;
+  padding: 2px 8px 2px 8px;
+  margin: 4px 4px 4px 0px;
+}
+/*==========================================================================*/
+

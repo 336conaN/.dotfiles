@@ -1,0 +1,76 @@
+{
+//==============================================================================================//
+  "layer": "bottom",
+  "position": "top",
+  "reload_style_on_change": false,
+  "mod": "dock",
+  "margin-top": 10,
+  "margin-bottom": 0,
+  "margin-right": 10,
+  "margin-left": 10,
+//==============================================================================================//
+
+//==============================================================================================//
+"modules-left": [ "hyprland/workspaces", "wlr/taskbar" ],
+
+"hyprland/workspaces": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "default": "<span font='SFMono Nerd Font Mono 15' foreground='#737994'>󰄯</span>",
+      "empty": "<span font='SFMono Nerd Font Mono 15' foreground='#414559'>󰄰</span>",
+      "active": "<span font='SFMono Nerd Font Mono 15' foreground='#c6d0f5'>󰮯</span>",
+      "visible": "<span font='SFMono Nerd Font Mono 15' foreground='#a5adce'>󰊠</span>"
+    }
+  },
+
+  "wlr/taskbar": {
+    "tooltip": false,
+    "format": "{icon}",
+    "all-outputs": true,
+    "icon-size": 15,
+    "on-click": "activate",
+    "on-click-right": "close"
+  },
+//==============================================================================================//
+
+//==============================================================================================//
+"modules-center": [ "hyprland/window" ],
+
+"hyprland/window": {
+    "tooltip": false,
+    "icon": true,
+    "icon-size": 15,
+    "rewrite": {"^$": "🏠 Desktop"}
+  },
+//==============================================================================================//
+
+//==============================================================================================//
+"modules-right": [ "clock#time", "clock#date", "cpu", "memory" ],
+
+  "clock#time": {
+    "tooltip": false,
+    "format": "<span font='SFMono Nerd Font 10' foreground='#e78284'> </span>{:%H:%M}",
+    "interval": 60
+  },
+
+  "clock#date": {
+    "tooltip": false,
+    "format": "<span font='SFMono Nerd Font 10' foreground='#a6d189'> </span>{:%d.%m.%y}",
+    "interval": 60
+  },
+
+  "cpu": {
+    "tooltip": false,
+    "format": "<span font='SFMono Nerd Font 10' foreground='#8caaee'> </span>{}%",
+    "interval": 10
+  },
+
+  "memory": {
+    "tooltip": false,
+    "format": "<span font='SFMono Nerd Font 10' foreground='#e5c890'> </span> {}%",
+    "interval": 10
+  }
+//==============================================================================================//
+}
+
