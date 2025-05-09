@@ -1,0 +1,46 @@
+#=============================================================#
+[global]
+font = "SF Pro 10"
+background = "#232634"
+foreground = "#c6d0f5"
+frame_color = "#292c3c"
+show_indicators = false
+ignore_newline = true
+follow = mouse
+origin = top-center
+width = (0, 800)
+height = (52, 350)
+min_icon_size = 40
+max_icon_size = 40
+notification_limit = 2
+offset = (0, 24)
+gap_size = 4
+frame_width = 2
+corner_radius = 8
+icon_corner_radius = 6
+padding = 6
+horizontal_padding = 6
+#=============================================================#
+
+#=============================================================#
+[urgency_critical]
+background = "#64454f"
+frame_color = "#e78284"
+#=============================================================#
+
+#=============================================================#
+[screenshots]
+appname = "Hyprshot"
+format = "<b>%s</b>"
+icon_position = "top"
+alignment = "center"
+min_icon_size = 300
+max_icon_size = 300
+#=============================================================#
+
+#=============================================================#
+[launcher]
+summary = "Rofi"
+format = "<b>%b</b>"
+#=============================================================#
+
