@@ -1,0 +1,24 @@
+#====================================================================#
+[[manager.prepend_keymap]]
+on    = "/"
+run   = "plugin zoxide"
+desc  = "zoxide"
+
+[[manager.prepend_keymap]]
+on    = "?"
+run   = "plugin fzf"
+desc  = "fzf"
+#====================================================================#
+
+#====================================================================#
+[[manager.prepend_keymap]]
+on    = "Z"
+run   = "disable"
+desc  = "disable"
+
+[[manager.prepend_keymap]]
+on    = "z"
+run   = "disable"
+desc  = "disable"
+#====================================================================#
+
