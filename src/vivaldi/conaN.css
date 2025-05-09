@@ -1,0 +1,62 @@
+* {
+  font-family: "SF Pro" !important;
+  font-weight: 600 !important;
+}
+
+#browser:not(.fullscreen) #webpage-stack {
+  border-radius: 6px !important;
+  box-shadow: 0 0 0 8px #232634 !important;
+  margin: 8px !important;
+  padding: 8px !important;
+}
+
+button[name="PanelBookmarks"] {
+  color: #e78284 !important;
+  stroke: #e78284 !important;
+}
+
+button[name="PanelReadingList"] {
+  color: #ef9f76 !important;
+  stroke: #ef9f76 !important;
+}
+
+button[name="PanelHistory"] {
+  color: #e5c890 !important;
+  stroke: #e5c890 !important;
+}
+
+button[name="PanelDownloads"] {
+  color: #a6d189 !important;
+  stroke: #a6d189 !important;
+}
+
+button[name="TilingToggle"] {
+  color: #8caaee !important;
+  stroke: #8caaee !important;
+}
+
+button[name="Extensions"] {
+  color: #ca9ee6 !important;
+  stroke: #ca9ee6 !important;
+}
+
+.button-toolbar.newtab {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.tab.active {
+  background-color: #51576d !important;
+  color: #c6d0f5 !important;
+}
+
+#header {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.StatusInfo {
+  display: none !important;
+  visibility: hidden !important;
+}
+

@@ -1,0 +1,27 @@
+{
+   "accentFromPage": false,
+   "accentOnWindow": false,
+   "accentSaturationLimit": 1,
+   "alpha": 1,
+   "backgroundImage": "",
+   "backgroundPosition": "stretch",
+   "blur": 0,
+   "colorAccentBg": "#232634",
+   "colorBg": "#232634",
+   "colorFg": "#c6d0f5",
+   "colorHighlightBg": "#8caaee",
+   "colorWindowBg": "",
+   "contrast": 0,
+   "dimBlurred": false,
+   "engineVersion": 1,
+   "id": "6a0cab02-a63d-4aa7-8d0e-4d24f0a73846",
+   "name": "conaN",
+   "preferSystemAccent": false,
+   "radius": 8,
+   "simpleScrollbar": true,
+   "transparencyTabBar": false,
+   "transparencyTabs": false,
+   "url": "",
+   "version": 1
+}
+
