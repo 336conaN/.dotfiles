@@ -1,0 +1,58 @@
+#=============================================================#
+palette = 0=#51576d
+palette = 1=#e78284
+palette = 2=#a6d189
+palette = 3=#e5c890
+palette = 4=#8caaee
+palette = 5=#f4b8e4
+palette = 6=#81c8be
+palette = 7=#b5bfe2
+palette = 8=#626880
+palette = 9=#e78284
+palette = 10=#a6d189
+palette = 11=#e5c890
+palette = 12=#8caaee
+palette = 13=#f4b8e4
+palette = 14=#81c8be
+palette = 15=#a5adce
+background = #232634
+foreground = #c6d0f5
+cursor-color = #a5adce
+cursor-text = #232634
+selection-background = #a5adce
+selection-foreground = #232634
+#=============================================================#
+
+#=============================================================#
+font-family = SFMono Nerd Font
+font-size = 11
+font-style = Bold
+font-style-bold = ExtraBold
+font-style-italic = Bold Italic
+font-style-bold-italic = ExtraBold Italic
+#=============================================================#
+
+#=============================================================#
+keybind = clear
+copy-on-select = clipboard
+keybind = performable:ctrl+shift+c=copy_to_clipboard
+keybind = performable:ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+equal=increase_font_size:1
+keybind = ctrl+minus=decrease_font_size:1
+#=============================================================#
+
+#=============================================================#
+confirm-close-surface = false
+title = Ghostty
+app-notifications = false
+desktop-notifications = false
+resize-overlay = never
+window-decoration = none
+window-padding-balance = true
+window-padding-color = background
+window-padding-x = 4
+window-padding-y = 4
+cursor-style = block
+cursor-style-blink = false
+#=============================================================#
+
