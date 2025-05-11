@@ -1,0 +1,57 @@
+/*==============================================================*/
+* {
+    font: "SFPro Medium 11";
+    highlight: none;
+    background-color: transparent;
+    text-color: #c6d0f5;
+    spacing: 0px;
+    border: 0px;
+}
+/*==============================================================*/
+
+/*==============================================================*/
+window {
+  location: north;
+  anchor: north;
+  y-offset: 30%;
+  width: 30%;
+  background-color: #232634;
+  border-color: #292c3c;
+  border-radius: 8px;
+  border: 2px;
+}
+/*==============================================================*/
+
+/*==============================================================*/
+inputbar {
+  padding: 6px 6px 6px 6px;
+  margin: 6px 6px 6px 6px;
+  background-color: #303446;
+  border-radius: 6px;
+}
+
+entry {
+  cursor-color: transparent;
+  blink: false;
+}
+/*==============================================================*/
+
+/*==============================================================*/
+listview {
+  padding: 0px 0px 0px 0px;
+  margin: 2px 6px 6px 6px;
+  fixed-height: false;
+  lines: 6;
+}
+
+element {
+  padding: 6px 6px 6px 6px;
+  margin: 0px 0px 0px 0px;
+}
+
+element selected {
+  background-color: #303446;
+  border-radius: 6px;
+}
+/*==============================================================*/
+
