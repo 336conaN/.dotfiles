@@ -1,0 +1,102 @@
+entries:
+  - title: "Browser"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      vivaldi
+      --ozone-platform=wayland
+      --enable-features=UseOzonePlatform
+      --use-cmd-decoder=validating
+      --use-gl=desktop
+
+  - title: "Notepad"
+    icon: " "
+    color: "#ef9f76"
+    command: >-
+      gnome-text-editor
+
+  - title: "Terminal"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      ghostty
+
+  - title: "Explorer"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      nautilus
+
+  - title: "NeoVim"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      ghostty
+      -e nvim
+
+  - title: "LazyGit"
+    icon: " "
+    color: "#ca9ee6"
+    command: >-
+      ghostty
+      -e lazygit
+
+  - title: "Emoji Picker"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      ~/.dotfiles/src/rofi/emoji/emoji.fish
+      --theme ~/.dotfiles/src/rofi/theme.rasi
+      --source ~/.dotfiles/src/rofi/source/emoji.txt
+      --fallback ~/.dotfiles/src/rofi/menu/menu.fish
+
+  - title: "Icon Picker"
+    icon: " "
+    color: "#ef9f76"
+    command: >-
+      ~/.dotfiles/src/rofi/icon/icon.fish
+      --theme ~/.dotfiles/src/rofi/theme.rasi
+      --source ~/.dotfiles/src/rofi/source/icon.txt
+      --fallback ~/.dotfiles/src/rofi/menu/menu.fish
+
+  - title: "Find"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      ~/.dotfiles/src/rofi/find/find.fish
+      --font 'SFMono Nerd Font'
+      --theme ~/.dotfiles/src/rofi/theme.rasi
+      --rule '.css| |#ca9ee6'
+      --rule '.html| |#e5c890'
+      --rule '.png| |#a6d189'
+      --rule '.mp4| |#ef9f76'
+      --rule '/|󰉋 |#8caaee'
+      --rule '|󰈔 |#c6d0f5'
+      --exclude '.local'
+      --exclude '.cache'
+      --fallback ~/.dotfiles/src/rofi/menu/menu.fish
+
+  - title: "Screenshot"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      ~/.dotfiles/src/rofi/menu.fish
+      --source ~/.dotfiles/src/rofi/source/screenshot.yaml
+      --fallback ~/.dotfiles/src/rofi/menu.fish
+
+  - title: "Run"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      ~/.dotfiles/src/rofi/run/run.fish
+      --theme ~/.dotfiles/src/rofi/theme.rasi
+      --fallback ~/.dotfiles/src/rofi/menu/menu.fish
+
+  - title: "Search"
+    icon: " "
+    color: "#ca9ee6"
+    command: >-
+      ~/.dotfiles/src/rofi/search/search.fish
+      --theme ~/.dotfiles/src/rofi/theme.rasi
+      --fallback ~/.dotfiles/src/rofi/menu/menu.fish
+
