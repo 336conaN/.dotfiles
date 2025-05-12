@@ -77,3 +77,15 @@ entries:
     command: >-
       ~/.dotfiles/src/rofi/web-search/web-search.fish
 
+  - title: "Screenshot"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      ~/.dotfiles/src/rofi/screenshot-menu/screenshot-menu.fish
+
+  - title: "Power"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      ~/.dotfiles/src/rofi/power-menu/power-menu.fish
+

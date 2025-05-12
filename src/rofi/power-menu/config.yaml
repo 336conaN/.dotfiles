@@ -1,0 +1,25 @@
+entries:
+  - title: "Shutdown"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      poweroff
+
+  - title: "Restart"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      reboot
+
+  - title: "Lock"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      hyprlock
+
+  - title: "Exit"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      hyprctl dispatch exit
+

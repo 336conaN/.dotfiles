@@ -1,0 +1,25 @@
+entries:
+  - title: "Screenshot and save"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      hyprshot -z -m region -o ~/Pictures/Screenshots/
+
+  - title: "Screenshot and edit"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      hyprshot -z -m region --raw | swappy -f -
+
+  - title: "Open screenshots folder"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      xdg-open ~/Pictures/Screenshots &
+
+  - title: "View latest screenshot"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      xdg-open ~/Pictures/Screenshots/$(eza ~/Pictures/Screenshots -t created -r | head -n 1) &
+
