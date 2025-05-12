@@ -65,3 +65,15 @@ entries:
     command: >-
       ~/.dotfiles/src/rofi/icon-picker/icon-picker.fish
 
+  - title: "Run Command"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      ~/.dotfiles/src/rofi/run-command/run-command.fish
+
+  - title: "Web Search"
+    icon: " "
+    color: "#ef9f76"
+    command: >-
+      ~/.dotfiles/src/rofi/web-search/web-search.fish
+
