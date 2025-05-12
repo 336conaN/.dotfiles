@@ -1,0 +1,67 @@
+entries:
+  - title: "Browser"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      vivaldi
+      --ozone-platform=wayland
+      --enable-features=UseOzonePlatform
+      --use-cmd-decoder=validating
+      --use-gl=desktop
+
+  - title: "Notepad"
+    icon: " "
+    color: "#ef9f76"
+    command: >-
+      gnome-text-editor
+
+  - title: "Terminal"
+    icon: " "
+    color: "#e5c890"
+    command: >-
+      ghostty
+
+  - title: "Explorer"
+    icon: " "
+    color: "#a6d189"
+    command: >-
+      nautilus
+
+  - title: "NeoVim"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      ghostty
+      -e nvim
+
+  - title: "LazyGit"
+    icon: " "
+    color: "#ca9ee6"
+    command: >-
+      ghostty
+      -e lazygit
+
+  - title: "Find File"
+    icon: " "
+    color: "#e78284"
+    command: >-
+      ~/.dotfiles/src/rofi/find-file/find-file.fish
+
+  - title: "Find Directory"
+    icon: " "
+    color: "#ef9f76"
+    command: >-
+      ~/.dotfiles/src/rofi/find-dir/find-dir.fish
+
+  - title: "Emoji Picker"
+    icon: " "
+    color: "#8caaee"
+    command: >-
+      ~/.dotfiles/src/rofi/emoji-picker/emoji-picker.fish
+
+  - title: "Icon Picker"
+    icon: " "
+    color: "#ca9ee6"
+    command: >-
+      ~/.dotfiles/src/rofi/icon-picker/icon-picker.fish
+
